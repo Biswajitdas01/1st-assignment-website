@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: #FFF;
+}
+
+.container {
+    width: 75%;
+    max-width: 1320px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+/* banner-section */
+
+.banner{
+  
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+        border-radius: 16px;
+}
+
+.banner {
+    background-image: url('../resources/Banner\ Image.png');
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+
+}
+
+
+
+
+.banner-wish {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-party {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
